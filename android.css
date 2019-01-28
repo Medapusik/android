@@ -19,6 +19,38 @@ div div {
   border-radius: 110px 110px 0 0;
   -webkit-border-radius: 110px 110px 0 0;
   -moz-border-radius: 110px 110px 0 0;
+  transform: rotate(-5deg) translate(-4px, -8px);
+  -webkit-transform: rotate(-5deg) translate(-4px, -8px);
+  -moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+.kuku {
+	background: #a8a8a8;
+	right: -230px;
+	top: 100px;
+	border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;  
+}
+.kuku p {
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 24px;
+	text-align: center;
+	padding: 14px;
+}
+.kuku-line {
+		background-color: #a8a8a8;
+		width: 35px;
+		  height: 70px;
+		  position: absolute;
+		  top: 20px;
+
+		  transform: rotate(45deg);
+		  -webkit-transform: rotate(45deg);
+		  -moz-transform: rotate(45deg);
+		  border-radius: 3px 3px 35px 35px;
+		  -webkit-border-radius: 3px 3px 35px 35px;
+		  -moz-border-radius: 3px 3px 35px 35px;
 }
 		.l_eye, .r_eye {
 		  background: #fff;
@@ -87,8 +119,8 @@ div div {
 		}
 
 		.l_leg, .r_leg {
-		  height: 80px;
-		  top: 182px;
+		  height: 90px;
+		  top: 172px;
 		  
 		  border-radius: 0 0 25px 25px;
 		  -webkit-border-radius: 0 0 25px 25px;
@@ -110,11 +142,6 @@ div div {
 		  right: 45px;
 		}
 
-.head:hover {
-  transform: rotate(-5deg) translate(-4px, -8px);
-  -webkit-transform: rotate(-5deg) translate(-4px, -8px);
-  -moz-transform: rotate(-5deg) translate(-4px, -8px);
-}
 .l_arm:hover {
   transform: rotate(15deg) translate(-14px, 0);
   -webkit-transform: rotate(15deg) translate(-14px, 0);
@@ -126,6 +153,16 @@ div div {
   -webkit-transform: rotate(-30deg) translate(30px, 0);
   -moz-transform: rotate(-30deg) translate(30px, 0);
 }
+		.l_leg:hover {
+		  left: 45px;
+		  transform: rotate(15deg) translate(-14px, 0);
+  -webkit-transform: rotate(15deg) translate(-14px, 0);
+  -moz-transform: rotate(15deg) translate(-14px, 0);
+		}
 
+		.r_leg:hover {
+		  right: 45px;
+		  transform: translate(-10px);
+		}
 
 
